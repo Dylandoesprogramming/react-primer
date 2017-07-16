@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Angular vs React!</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="css/style.css" rel="stylesheet">
+      <script defer src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+      <script defer src="scripts/angular.js"></script>
+      <script defer src="scripts/react-transpiled.js"></script>
+
+   </head>
+   <body>
+      <header>
+         <h1>A Comparison of AngularJS and React</h1>
+      </header>
+      <section>
+         <img height="150" src="images/angularjs.jpg"/>
+
+         <!-- Angular App-->
+         <div ng-app="digestTest">
+            <div ng-controller="digestController">
+               <h1>The current time is {{time}}</h1>
+            </div>         
+         </div>
+
+      </section>
+
+      <section>
+         <img height="150" src="images/react.png"/>
+  
+         <!-- React App-->
+         <div id="react-node"></div>
+  
+   </section>
+   </body>
+</html>
