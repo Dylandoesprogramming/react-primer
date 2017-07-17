@@ -78,6 +78,32 @@ Now let's add some more JSX to the app.
 
 3. Write a condition to return one of two JSX elements. 
 
-# Components and the Component Class
-Now let's add a fully functional component using the Component class. 
+## Our Second App
+Now let's build another app. Shut down your previous app and navigate to second-react-app. 
 
+I've provided the webpack and babel config for you, but you'l need to install the depenedncies. Just run npm i. 
+
+For your reference, you'll install the following dev dependencies: 
+- react
+- react-dom
+- babel-core
+- babel-loader
+- babel-preset-env (gets latest ES6)
+- babel-preset-react
+- style-loader
+- css-loader
+
+Now follow the steps beginning in the index.js file. These steps will lead you through the following actions:
+
+1. Bootstrapping the react app
+2. Adding styles
+3. Importing and writing the App component
+   a. Writing functional components
+   b. Rendering child components
+4. Importing and writing the UserInput component      a. Writing class components
+   b. Setting up state
+   c. Re-rendering on state changes
+   d. Receiving user input and changing state
+
+## If we have time...
+If we finish all of that, we'll use create-react-app to install and start a react app. Then we'll practice writing class components and using component state. 
