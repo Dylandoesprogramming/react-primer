@@ -1,16 +1,27 @@
 // The simplest React app
 import React from 'react'
 import ReactDOM from 'react-dom'
+import App from './App.js'
 
 document.addEventListener('DOMContentLoaded', () => {
    
    const reactNode = document.getElementById('react-node')
 
-   const jsxElement = <h1>Hello, React!</h1>
+   const jsxElement = <h1>Hello, Class!</h1>
+
+   const name = "Brian"
  
-   ReactDOM.render(jsxElement, reactNode)
+   ReactDOM.render(
+      <div>
+         <nav>This is my fake nav</nav>
+         <header>Welcome, {name}</header>
+         <App />
+      </div>
+      , reactNode
+   )
 
 })
+
 
 /* 
 NOTES: 
