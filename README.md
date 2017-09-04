@@ -76,9 +76,9 @@ Get something else to render on the page. Make your own heading.
 Now let's add some more JSX to the app. 
 1. Substitute the html string for a JavaScript expression. (Both of these are JSX elements, which are then converted to JavaScript.)
 
-2. Write a function to return a larger JSX element 
+2. Write a function to return a larger JSX element (Should be done in a new file called App.js using imports and exports);
 
-3. Write a condition to return one of two JSX elements. 
+3. Write a condition to return one of two JSX elements. (Do this in your App.js file);
 
 ## Our Second App
 Now let's build another app. Shut down your previous app and navigate to second-react-app. 
