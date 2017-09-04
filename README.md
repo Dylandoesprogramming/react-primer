@@ -62,6 +62,8 @@ Open the first-react-app folder and check out the  file structure:
 
 We'll talk about each of these files and then we'll use them to build our app.
 
+I've provided the webpack and babel config for you, but you'l need to install the depenedncies. Just run yarn.
+
 ### A Few Things to Note
 - Importing (requiring) React and ReactDOM
 - Selecting the DOM element
@@ -81,7 +83,7 @@ Now let's add some more JSX to the app.
 ## Our Second App
 Now let's build another app. Shut down your previous app and navigate to second-react-app. 
 
-I've provided the webpack and babel config for you, but you'l need to install the depenedncies. Just run npm i. 
+I've provided the webpack and babel config for you, but you'l need to install the depenedncies. Just run yarn. 
 
 For your reference, you'll install the following dev dependencies: 
 - react
@@ -98,12 +100,13 @@ Now follow the steps beginning in the index.js file. These steps will lead you t
 1. Bootstrapping the react app
 2. Adding styles
 3. Importing and writing the App component
-   a. Writing functional components
-   b. Rendering child components
-4. Importing and writing the UserInput component      a. Writing class components
-   b. Setting up state
-   c. Re-rendering on state changes
-   d. Receiving user input and changing state
+   * Writing functional components
+   * Rendering child components
+4. Importing and writing the UserInput component 
+   * Writing class components
+   * Setting up state
+   * Re-rendering on state changes
+   * Receiving user input and changing state
 
 ## If we have time...
 If we finish all of that, we'll use create-react-app to install and start a react app. Then we'll practice writing class components and using component state. 
